@@ -1,13 +1,53 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #333333;
+}
+
+a{
+  text-decoration: none;
+}
+
+#help{
+  font-family: monospace;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+#game-title {
+  font-family: monospace;
+  font-size: 3rem;
+  margin:  2.5% auto 1%;
+  color: #FEF2BF;
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
+  font-size: 1rem;
+  margin:  2% auto 1%;
   color: #FEF2BF;
+}
+
+#rule-title{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin:  4% auto 1%;
+  color: #FEF2BF;
+  text-align: center;
+}
+
+#rule-text{
+  font-family: monospace;
+  font-size: 1rem;
+  margin:  1% auto 1%;
+  color: #FEF2BF;
+  width: 50%;
+}
+
+#rule-text p{
+  display: inline-block;
+  
 }
 
 .container {
